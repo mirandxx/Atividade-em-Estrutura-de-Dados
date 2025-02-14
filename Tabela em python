@@ -1,0 +1,19 @@
+nomes = []
+datas = []
+
+
+print("Digite o nome de 5 alunos:")
+for i in range(5):
+    nome = input()  
+    nomes.append(nome)
+
+
+print("Digite 5 datas de nascimento:")
+for i in range(5):
+    data = int(input())
+    datas.append(data)
+
+
+print("----Tabela----")
+for i in range(5):
+    print(f"{nomes[i]} - {datas[i]}")
