@@ -1,0 +1,10 @@
+lista = ['Karla','Maria','Joana']
+print('O nome da posição 0 é:',lista [0])
+print('O nome da posição -1 é:',lista [-1])
+print('O nome da posição -2 é:',lista [-2])
+lista[0] = 'Zeca'
+print(lista)
+
+lista = ['Karla','Maria','Joana','Márcio','lara']
+for i in range(len{lista}):
+print ()
